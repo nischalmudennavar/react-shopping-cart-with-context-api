@@ -1,0 +1,11 @@
+.homeScreen{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap:wrap;
+    width:80%;
+    margin:auto;
+    margin-top:40px;
+    position: relative;
+    z-index: 1;
+}

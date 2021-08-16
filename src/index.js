@@ -4,9 +4,14 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import CartState from './Context/CartContext/CartState';
+
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <CartState>
+      <App />
+    </CartState>
+   
   </React.StrictMode>,
   document.getElementById('root')
 );
